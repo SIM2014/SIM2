@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/11/2014, 10:56:24 PM
+    Author     : Abbyz
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+#group{
+    width: 1024px;
+    margin: 15px auto;
+    text-align: left;
+}
+#programs_consult{
+    margin: 10px;
+}
+#table1{
+    border: 1px solid #7f6eff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+#table1 td{
+    border: 1px solid #7f6eff;
+}
+#table2{
+    border: 1px solid #7f6eff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+#table2 td{
+    border: 1px solid #7f6eff;
+}
+input{
+    margin: 10px;
+    padding: 2px 5px;
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+section{
+    border: 1px solid #999999;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}

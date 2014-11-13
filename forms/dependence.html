@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DEPENDENCIA</title>
+        <link rel="stylesheet" href="../styles/dependence.css">
+    </head>
+
+    <body>
+        <div id="group">
+            <nav id="menu">
+                <ul class="menu1">
+                    <li><a href="#">DATOS GENERALES</a></li>
+                    <li><a href="#">DIRECCI&Oacute;N</a></li>
+                    <li><a href="#">POL&Iacute;TICAS DE CALIDAS</a></li>
+                </ul>
+            </nav>
+            <nav id="toolbar">
+                <ul>
+                    <li><a href="#"><img src="../icons/icon_add.png" alt="" width="40" height="40"></a></li>
+                    <li><a href="#"><img src="../icons/icon_update.png" alt="" width="40" height="40"></a></li>
+                    <li><a href="#"><img src="../icons/icon_delete.png" alt="" width="40" height="40"></a></li>
+                    <li><a href="#"><img src="../icons/icon_cancel.png" alt="" width="40" height="40"></a></li>
+                </ul>
+            </nav>
+
+            <section id="dependence_data">
+                <table id="table1">
+                    <tr>
+                        <td>
+                            <input type="text" name="curp" value="" placeholder="CURP">
+                            <br>
+                            <input type="text" name="name" value="" placeholder="DEPENDENCIA">
+                            <input type="text" name="acronym" value="" placeholder="ACRONIMO">
+                            <br>
+                            <form>
+                                <input type="text" name="slogan" value="" placeholder="SLOGAN">
+                                Ingresa archivo:
+                                <input name="imagen" type="file" />
+                            </form>
+                            <br>
+                            Rubro:
+                            <select name="rubro"> 
+                                <option value="Seleccione" >Seleccione</option>
+                                <option value="Ganaderia" >Ganaderia</option>
+                                <option value="Pesca">Pesca</option>
+                                <option value="Comercio">Comercio</option>
+                            </select>
+                            Cobertura:
+                            <select name="rubro"> 
+                                <option value="Seleccione" >Seleccione</option>
+                                <option value="Federal" >Federal</option>
+                                <option value="Estatal">Estatal</option>
+                                <option value="Municipal">Municipal</option>
+                                
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="address">
+                <input type="text" name="street" placeholder="Calle">
+                <input type="text" name="internal_number" placeholder="No. Interno">
+                <input type="text" name="external_number" placeholder="No. Externo">
+                <br>
+                <input type="text" name="colonia" placeholder="Colonia">
+                <br>
+                <input type="number" name="postal_code" placeholder="C&oacute;digo Postal">
+                <br>
+                <input type="text" name="country" placeholder="Pa&iacute;s">
+                <input type="text" name="state" placeholder="Estado">
+                <br>
+                <input type="text" name="municipality" placeholder="Municipio">
+                <input type="text" name="locality" placeholder="Localidad">
+                <br>
+            </section>
+            <section id="policies">
+                <input type="text" name="objetive" placeholder="Objetivos">
+                <br>
+                <input type="text" name="mission" placeholder="Misión">
+                <br>
+                <input type="text" name="vision" placeholder="Visión">
+                <br>
+                <div id="values">
+                    <input type="radio" name="respeto" value="Respeto" checked>Respeto
+                    <input type="radio" name="honest" value="Honestidad">Honestidad
+                    <input type="radio" name="honest" value="Honestidad">Humildad
+                    <input type="radio" name="honest" value="Honestidad">Responsabilidad
+                    <input type="radio" name="honest" value="Honestidad">Equidad
+                    <input type="radio" name="honest" value="Honestidad">Trabajo en Equipo
+                    
+                </div>
+                <br>
+            </section>
+        </div>
+    </body>
+</html>
+----------------

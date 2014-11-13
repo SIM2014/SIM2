@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>INFORMACION GENERAL DE PERSONAS</title>
+        <link rel="stylesheet" href="../styles/person_information.css">
+    </head>
+
+    <body>
+        <div id="group">
+            <nav id="menu">
+                <ul class="menu1">
+                    <li><a href="#">DATOS GENERALES</a></li>
+                    <li><a href="#">DIRECCI&Oacute;N</a></li>
+                </ul>            </nav>
+            <nav id="toolbar">
+                <ul>
+                    <li><a href="#"><img src="../icons/icon_add.png" alt="" width="40" height="40"></a></li>
+                    <li><a href="#"><img src="../icons/icon_update.png" alt="" width="40" height="40"></a></li>
+                    <li><a href="#"><img src="../icons/icon_delete.png" alt="" width="40" height="40"></a></li>
+                    <li><a href="#"><img src="../icons/icon_cancel.png" alt="" width="40" height="40"></a></li>
+                </ul>
+            </nav>
+            <section id="general_dates">
+                <table id="table1">
+                    <tr>
+                        <td>
+                             <input type="text" name="curp" value="" placeholder="CURP">
+                            <br>
+                            <input type="text" name="name" value="" placeholder="Nombre(s)">
+                            <input type="text" name="paternal_surname" value="" placeholder="Apellido Paterno">
+                            <input type="text" name="maternal_surname" value="" placeholder="Apellido Materno">
+                            <br>
+                            Fecha de Nacimiento:
+                            <input type="date" name="birthdate" value="">
+                            <br>
+                            <input type="text" name="sex" value="" placeholder="Sexo">
+                            <br>
+                            Suscripcion:
+                            <select name="subscription"> 
+                                <option value="Seleccione" >Seleccione</option>
+                                <option value="active" >Activo</option>
+                                <option value="inactive">Inactivo</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="address">
+                <input type="text" name="street" placeholder="Calle">
+                <input type="text" name="internal_number" placeholder="No. Interno">
+                <input type="text" name="external_number" placeholder="No. Externo">
+                <br>
+                <input type="text" name="colonia" placeholder="Colonia">
+                <br>
+                <input type="number" name="postal_code" placeholder="C&oacute;digo Postal">
+                <br>
+                <input type="text" name="country" placeholder="Pa&iacute;s">
+                <input type="text" name="state" placeholder="Estado">
+                <br>
+                <input type="text" name="municipality" placeholder="Municipio">
+                <input type="text" name="locality" placeholder="Localidad">
+                <br>
+                <input type="text" name="name" value="" placeholder="Nombre">
+                <input type="tel" name="phone" value="" placeholder="Telefono">
+                <select>
+                    <option value="">Celular</option>
+                    <option value="">Hogar</option>
+                    <option value="">Oficina</option>
+                    <option value="">Otro</option>
+                </select>
+                <table id="table2">
+                    <tr>
+                        <td width="250">Nombre</td>
+                        <td width="250">Teléfono</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </body>
+</html>
+

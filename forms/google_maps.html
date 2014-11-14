@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Google Maps</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../styles/programs_consult.css">
+    </head>
+    <body>
+        <div id="group">  
+            <section id="places">
+                País:
+                <select name="country"> 
+                    <option value="Seleccione" >Seleccione</option>
+                </select>
+                Estado:
+                <select name="state"> 
+                    <option value="Seleccione" >Seleccione</option>
+                </select>
+                Municipio:
+                <select name="state"> 
+                    <option value="Seleccione" >Seleccione</option>
+                </select>
+                <br>
+                <input type="text" name="search" value="" placeholder="Introduzca el lugar a buscar">
+                <button> 
+                    <img src="../icons/search.png" alt="search" width="25" height="25">
+                </button>
+                <br>
+                <table id="table1">
+                    <tr>
+                        <td>
+                            <button> 
+                                <img src="../icons/profile.png" alt="search" width="300" height="300">
+                            </button>
+                        </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td colspan="2">Detalles:</td>
+                                </tr>
+                                <tr>
+                                    <td width="200">Lugar</td>
+                                    <td width="200"></td>
+                                </tr>
+                                <tr>
+                                    <td width="200">Descripcion</td>
+                                    <td width="200"></td>
+                                </tr>
+                            </table>
+                        </td>
+                </table>
+
+                <button> Limpiar </button>
+                <button> Cancelar </button>
+            </section>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/11/2014, 11:17:51 AM
+    Author     : Abbyz
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+#group{
+    width: 1024px;
+    margin: 15px auto;
+    text-align: left;
+}
+#places{
+    margin: 10px;
+}
+#places input{
+    margin: 10px;
+    padding: 2px 5px;
+    height: 25px;
+    width: 550px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+#table1{
+    width: 100%;
+}
